@@ -3,37 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Prague</h1>
-        <p>
-          Saturday 16:00, broken clouds
-          <br />
-          63%, Wind: 5.66km/h
-        </p>
-      </div>
-      <div>🌤 14°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/aleks-sandra" target="_blank"
-        >Oleksandra Andriiuk</a
-      >
-      is open-sourced on
-      <a href="https://github.com/aleks-sandra/SheCodes-plus" target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://weatherapp-andriiuk.netlify.app/">Netlify</a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Prague</h1>
+          <p>
+            Saturday 16:00, broken clouds
+            <br />
+            63%, Wind: 5.66km/h
+          </p>
+        </div>
+        <div>🌤 14°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/aleks-sandra" target="_blank"
+          >Oleksandra Andriiuk</a
+        >
+        is open-sourced on
+        <a href="https://github.com/aleks-sandra/SheCodes-plus" target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://weatherapp-andriiuk.netlify.app/">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
