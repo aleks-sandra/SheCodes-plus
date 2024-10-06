@@ -31,13 +31,18 @@ header {
 }
 
 .search-form-button {
-  background-color: #676297;
+  background: linear-gradient(to right, #676297, #7bc9f6);
+  transition: background-position 0.5s;
+  background-size: 200% auto;
   border: none;
   padding: 15px 30px;
   margin-left: 5px;
   border-radius: 6px;
   color: white;
   font-size: 16px;
+}
+.search-form-button:hover {
+  background-position: right top;
 }
 
 main {
