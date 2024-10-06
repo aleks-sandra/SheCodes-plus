@@ -13,7 +13,7 @@ body {
   border-radius: 16px;
 }
 a {
-  color: #679186;
+  color: #676297;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 }
 
 .search-form-button {
-  background-color: #679186;
+  background-color: #676297;
   border: none;
   padding: 15px 30px;
   margin-left: 5px;
@@ -95,9 +95,12 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
+
 .weather-forecast {
   display: flex;
   justify-content: space-around;
